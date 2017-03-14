@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Feb, 2017, 2:00:19 PM
+    Author     : K.SRINIVAS
+*/
+
+/* With these codes padding and border does not increase it's width and gives intuitive style.*/
+
+body {
+background-color: #ccccb3;    
+margin:0;
+padding:0;
+font-family: 'Roboto Slab', serif;
+}
+div#envelope{
+width: 65%;
+margin: 10px 30% 10px 10%;
+padding:10px 0;
+border: 2px white;
+border-radius:10px;
+}
+form{
+width:90%;
+margin:0 15%;
+border-radius: 10px 10px 10px 10px;
+}
+header{
+   width: 100%;
+   align-self: center;
+background-color: #666;
+text-align: center;
+padding-top: 12px;
+padding-bottom: 8px;
+margin-top: -1px;
+margin-bottom: -1px;
+border-radius: 10px 10px 0 0;
+color: aliceblue;
+}
+
+/* Makes responsive fields. Sets size and field alignment.*/
+input[type=text]{
+margin-bottom: 20px;
+margin-left: 10px;
+margin-top: 10px;
+width:60%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+input[type=date]{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 10px;
+width:60%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+
+}
+input[type=textarea]{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 10px;
+width:60%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+input[type=password]{
+margin-bottom: 20px;
+margin-top: 10px;
+margin-left: 10px;
+width:60%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+}
+input[type=submit]
+{
+margin-bottom: 20px;
+margin-left: 10px;
+width:20%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #666;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+input[type=button]
+{
+margin-bottom: 20px;
+margin-left: 10px;
+width:20%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #666;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+#submit:hover
+{
+background-color: black;
+}
+#button:hover
+{
+background-color: black;
+}
+input[type=reset]
+{
+margin-bottom: 20px;
+width:20%;
+padding: 15px;
+border-radius:5px;
+border:1px solid #7ac9b7;
+background-color: #666;
+color: aliceblue;
+font-size:15px;
+cursor:pointer;
+}
+#reset:hover
+{
+background-color: black;
+}
+a:hover,a:active{
+background-color:#666;
+color:#ffffff;
+}
+
+input[type=text]:focus,textarea:focus {
+border-color: #4697e4;
+}
+input[type=textarea]:focus,textarea:focus {
+border-color: #4697e4;
+}
+input[type=date]:focus,textarea:focus {
+border-color: #4697e4;
+}
+

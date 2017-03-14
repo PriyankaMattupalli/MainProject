@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Feb, 2017, 2:03:32 PM
+    Author     : K.SRINIVAS
+*/
+h2{
+font-size:16px;
+}
+p{
+font-size:14px;
+}
+label{
+font-size:12px;
+}
+input[type=submit]{
+padding:5px;
+}
+input[type=button]{
+padding:5px;
+}
+input[type=reset]{
+padding:5px;
+}
+input[type=text]{
+padding: 8px;
+}
+input[type=password]{
+padding: 8px;
+}
+div#envelope{
+width: 80%;
+/*margin: 10px 30% 10px 11%;*/
+margin: 10px 70% 10px 0%;
+}
+.body{ 
+width:90%;
+font-size:95%;
+}
+

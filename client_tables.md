@@ -1,4 +1,5 @@
 
+
 CREATE TABLE `owllocal` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
   `mrnumber` varchar(10) NOT NULL,

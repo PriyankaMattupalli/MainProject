@@ -30,7 +30,7 @@ CREATE TABLE `folding_phoropter` (
   `country` varchar(50) DEFAULT NULL,
   `pincode` varchar(10) DEFAULT NULL,
   PRIMARY KEY (`sno`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8
+) 
 
 CREATE TABLE `members` (
   `first_name` varchar(45) NOT NULL,
@@ -44,7 +44,7 @@ CREATE TABLE `members` (
   `institute` varchar(60) DEFAULT NULL,
   `permissions` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`uname`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) 
 
 CREATE TABLE `patients` (
   `mrnumber` varchar(10) NOT NULL,
@@ -56,7 +56,7 @@ CREATE TABLE `patients` (
   `phone` varchar(20) NOT NULL,
   `address` varchar(255) NOT NULL,
   PRIMARY KEY (`mrnumber`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) 
 
 CREATE TABLE `pediperimain` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
@@ -73,7 +73,7 @@ CREATE TABLE `pediperimain` (
   `textfile2path` varchar(200) DEFAULT NULL,
   `textfile3path` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`sno`)
-) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8
+) 
 
 CREATE TABLE `permissions` (
   `uname` varchar(45) NOT NULL,
@@ -83,7 +83,7 @@ CREATE TABLE `permissions` (
   `pupilpermission` tinyint(1) DEFAULT NULL,
   `lastupdatedtime` datetime DEFAULT NULL,
   PRIMARY KEY (`uname`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8
+) 
 
 CREATE TABLE `pupilmain` (
   `sno` int(11) NOT NULL AUTO_INCREMENT,
@@ -99,4 +99,4 @@ CREATE TABLE `pupilmain` (
   `excelfile1path` varchar(200) DEFAULT NULL,
   `excelfile2path` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`sno`)
-) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8
+) 

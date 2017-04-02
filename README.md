@@ -72,7 +72,9 @@ For making apache tomcat as the windows service open the command prompt go to bi
 C:\>apache-tomcat-7.0.75\bin\service.bat install   
 
 Then go to services(win+r-->services.msc-->ok), you can see apache-tomcat-7.0-Tomact 7 as the windows service where you can start it manually or make it automatic using properties (right click on the service to go to its properties)   
-According to the tutorial for configuring the apache tomcat server, in the conf\server.xml file, connector port for http is changed to port number 9999, but we need to change that to port=”80” in the following way   
+According to the tutorial for configuring the apache tomcat server, in the conf\server.xml file, connector port for http is changed to port number 9999, but we need to change that to port=”80” in the following way  
+
 Connector port="80" protocol="HTTP/1.1" connectionTimeout="20000" redirectPort="8443"    
+
 Add the application folder to the webapps folder which is in apache-tomcat-7.0.75 folder and in the browser type localhost:80/application_folder_name you can see the index page here.
 

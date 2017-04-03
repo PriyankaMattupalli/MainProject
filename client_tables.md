@@ -36,4 +36,4 @@ CREATE TABLE `pupillocal` (
   `excelfile1` mediumblob,
   `excelfile2` mediumblob,
   PRIMARY KEY (`sno`)
-) 
+)  
